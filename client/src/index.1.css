@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#behindTabs {
+    background-color: #f1f1ef;
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
+#bar {
+    background-color: #f1f1ef;
+    height: 37px;
+    width: 100%;
+}
+
+#tabName {
+    color: black;
+    width: 100px;
+    height: 37px;
+}
+
+#tabName:active {
+    color: white;
+    background-color: #343A40;
+}
+
+#tabName:focus {
+    color: white;
+    background-color: #343A40;
+}
+
+#col {
+    background-color: #343A40;
+}
+
+#msgbox {
+    width: 60%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+}
+
+#user-count {
+    height: 37px;
+    color: #ff6000;
+}
+
+#sendbtn {
+    width: 30%;
+}
+
+#siteTitle {
+    color: #ff6000;
+}
