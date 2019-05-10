@@ -6,13 +6,18 @@ import './App.css';
 function App() {
   return (
     <>
-      <NavBar/>
-      <div className="row">
+      <div className="row bg-dark">
         <div className="col-md-12">
-          <PagesContainer/>
+          <NavBar />
         </div>
       </div>
-      
+
+      <div className="row">
+        <div className="col-md-12">
+          <PagesContainer />
+        </div>
+      </div>
+
     </>
   );
 }
