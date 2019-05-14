@@ -17,12 +17,12 @@ function NavTabs(props) {
         </li>
         <li className="nav-item col-md-2">
           <Link id="tabName"
-            to='/portfolio'
-            // href="#portfolio"
-            // onClick={() => props.handlePageChange("Portfolio")}
-            className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+            to='/projects'
+            // href="#projects"
+            // onClick={() => props.handlePageChange("Projects")}
+            className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}
           >
-            Portfolio
+            Projects
         </Link>
         </li>
         <li className="nav-item col-md-2">
