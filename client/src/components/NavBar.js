@@ -9,8 +9,8 @@ class NavBar extends Component {
 
     render() { 
         return (
-            <nav className={`navbar row ${this.props.color}`}>
-                <div className='ml-5 pl-5'>
+            <nav className={`navbar row ${this.props.color} pl-5`}>
+                <div className='ml-5 pl-5 pb-2'>
                 <ToggleSwitch/>
                 </div>
 

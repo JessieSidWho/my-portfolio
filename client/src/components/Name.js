@@ -9,10 +9,10 @@ class Name extends Component {
         return (
             <>
                 <div className={`row ${this.props.color}`}>
-                    <div className="col-md-5" style={{ fontFamily: 'Catamaran', fontSize: '100px' }}>
-                        <div className='text-center'>
+                    <div className="col-md-6" style={{ fontFamily: 'Catamaran', fontSize: '100px' }}>
+                        <div className='text-center' style={{minWidth: '457px'}}>
                             I'm Jessie.
-                  </div>
+                        </div>
 
                         <div className="row">
                             <div className='col-md-12'>
@@ -20,7 +20,7 @@ class Name extends Component {
                                     <i className="fas fa-arrow-down"></i>
                                 </div>
                                 <div className='row justify-content-md-center mb-3'>
-                                    <div id='badge' className={`col-md-7 border rounded-lg text-center ${this.props.color}`} width='100%'>
+                                    <div id='badge' className={`col-md-7 border rounded-lg text-center ${this.props.color}`}>
                                         <img className='m-3' src={profile} alt='profile pic' style={{ width: '50%', height: 'auto' }} />
                                         <div className='h3' style={{ fontFamily: 'Raleway' }}>Jasmeet Sidhu</div>
                                         <div className='h4 pb-0 mb-0' style={{ fontFamily: 'Raleway' }}>Full Stack Developer
