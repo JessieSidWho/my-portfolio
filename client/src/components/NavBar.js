@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { colorChange } from '../actions';
-// import ToggleSwitch from './ToggleSwitch';
+import ToggleSwitch from './ToggleSwitch';
 
 class NavBar extends Component {
 
@@ -9,13 +9,16 @@ class NavBar extends Component {
 
     render() { 
         return (
-            <div className={`col-md-12 ${this.props.color}`}>
+            <nav className={`navbar row ${this.props.color}`}>
+                <div className='ml-5 pl-5'>
+                <ToggleSwitch/>
+                </div>
 
-                <div className="bg-dark text-right p-2" href="/" style={{fontFamily: 'Black Ops One',color: '#f1f1ef', fontSize: '70px'}}>Hello World.</div>
+                <div className="navbar-brand text-right p-2" href="/" style={{fontFamily: 'Black Ops One', fontSize: '70px'}}>Hello World.</div>
 
                 {/* // <a href='http://localhost:3001/api/logout'><button className="btn btn-secondary btn-block" >Logout</button></a> */}
 
-             </div>
+             </nav>
         );
     }
 }
