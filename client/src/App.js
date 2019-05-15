@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-// import PagesContainer from './components/PagesContainer';
+import Name from './components/Name';
 import './App.css';
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       </div>
 
       <div className="row bg-dark">
-        <div className="col-md-12">
-          
+        <div className="col-md-5 text-white text-center" style={{fontFamily: 'Catamaran', fontSize: '100px'}}>
+          <Name/>
         </div>
       </div>
 

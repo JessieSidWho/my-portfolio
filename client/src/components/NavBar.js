@@ -11,7 +11,7 @@ class NavBar extends Component {
         return (
             <div className={`col-md-12 ${this.props.color}`}>
 
-                <div className="bg-dark text-right p-2" href="/" style={{color: '#f1f1ef', fontSize: '40px'}}>Hello World.</div>
+                <div className="bg-dark text-right p-2" href="/" style={{fontFamily: 'Black Ops One',color: '#f1f1ef', fontSize: '70px'}}>Hello World.</div>
 
                 {/* // <a href='http://localhost:3001/api/logout'><button className="btn btn-secondary btn-block" >Logout</button></a> */}
 
