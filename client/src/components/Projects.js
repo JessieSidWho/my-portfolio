@@ -17,10 +17,10 @@ class Projects extends Component {
                     </div>
                     <div className='row justify-content-md-center'>
                         <div className={`col-md-6 text-center `}>
-                            <a href='https://flipsearch.herokuapp.com' className={``}><img className={`border border-dark rounded-lg`} src={FlipSearch} alt='project link' height='114' width='334'/></a>
+                            <a href='https://flipsearch.herokuapp.com' className={``}><img className={`border border-dark rounded-lg mt-2 mb-2`} src={FlipSearch} alt='project link' height='114' width='334'/></a>
                         </div>
                         <div className={`col-md-6 text-center`}>
-                            <a href='https://study-live.herokuapp.com' className={``}><img className={`border border-white rounded-lg`} src={StudyLive} alt='project link' height='114' width='334'/></a>
+                            <a href='https://study-live.herokuapp.com' className={``}><img className={`border border-white rounded-lg mt-2 mb-2`} src={StudyLive} alt='project link' height='114' width='334'/></a>
                         </div>
                     </div>
                     
