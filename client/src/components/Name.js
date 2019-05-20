@@ -9,8 +9,8 @@ class Name extends Component {
         return (
             <>
                 <div className={`row ${this.props.color}`}>
-                    <div className="col-md-6" style={{ fontFamily: 'Catamaran', fontSize: '100px' }}>
-                        <div className='text-center' style={{minWidth: '457px'}}>
+                    <div className="col-md-6" style={{ fontFamily: 'Catamaran', fontSize: '7vw' }}>
+                        <div className='text-center' style={{minWidth: '360px'}}>
                             I'm Jessie.
                         </div>
 
