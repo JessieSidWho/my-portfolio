@@ -66,8 +66,8 @@ class ToggleSwitch extends Component {
 
     return (
       
-      <div className="border border-secondary rounded-lg ml-5 mb-1">
-        <button className="btn btn-light" onClick={ () => this.props.colorChange('bg-light text-dark border-dark')}>Light</button>
+      <div className="mb-1">
+        <button className="btn btn-light border-secondary" onClick={ () => this.props.colorChange('bg-light text-dark border-dark')}>Light</button>
         <button className="btn btn-secondary" onClick={ () => this.props.colorChange('bg-dark text-white border-light')}>Dark</button>
       </div>
       // <div className={switchClasses} onClick={this.toggleSwitch} {...restProps}>

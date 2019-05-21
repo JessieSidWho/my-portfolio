@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <div className={`row ${this.props.color} justify-content-md-end`}>
                 <div className={`col-md-7`}>
-                    <div className='text-center' style={{ fontFamily: 'Catamaran', fontSize: '70px' }}>
+                    <div className='text-center' style={{ fontFamily: 'Catamaran', fontSize: '7vw' }}>
                         About Me
                     </div>
                     <div className='pl-3 pr-3 pb-3'>
