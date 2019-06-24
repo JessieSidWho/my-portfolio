@@ -24,9 +24,26 @@ class Name extends Component {
                                         <img className='m-3' src={profile} alt='profile pic' style={{ width: '50%', height: 'auto' }} />
                                         <div className='h3' style={{ fontFamily: 'Raleway' }}>Jasmeet Sidhu</div>
                                         <div className='h4 pb-0 mb-0' style={{ fontFamily: 'Raleway' }}>Full Stack Developer
-                                    <a href='https://www.linkedin.com/in/jsidhu22/' className='btn btn-block btn-primary rounded-lg mt-3 mb-3'>Linked<i className="fab fa-linkedin"></i></a></div>
+                                    <a href='https://www.linkedin.com/in/jsidhu22/' rel='noopener noreferrer' target='_blank' className='btn btn-block btn-primary rounded-lg mt-3 mb-3'>Linked<i className="fab fa-linkedin"></i></a></div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col-md-6 mt-3" style={{ fontFamily: 'Raleway', fontSize: '7vw' }}>
+                        <div className='text-center' style={{minWidth: '360px'}}>
+                        <i class="fas fa-at"></i>Handles
+                        </div>
+
+                        <div className="row justify-content-md-center mb-3">
+                            <div className='col-md-12 text-center '>
+                                
+                                    <p><a className='' href='https://github.com/jessiesidwho'><i class="fab fa-github"></i></a></p>
+                                    <p><a className='' href='https://twitter.com/jessiesidwho'><i class="fab fa-twitter"></i></a></p>
+                                    {/* <a className='' href=''></a> */}
+                                
                             </div>
                         </div>
 
