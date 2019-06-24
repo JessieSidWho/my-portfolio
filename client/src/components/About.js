@@ -13,15 +13,15 @@ class About extends Component {
         return (
             <div className={`row ${this.props.color}`}>
                 <div className="col-md-6 mb-5 mt-3" style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
-                        <div className='text-center' style={{minWidth: '360px'}}>
+                        <div className='text-center pb-2' style={{minWidth: '360px'}}>
                         <i class="fas fa-at mr-2"></i>Handles
                         </div>
 
                         <div className="row justify-content-md-center mb-3">
                             <div className='col-md-12 text-center '>
                                 
-                                    <p><a className='' href='https://github.com/jessiesidwho'><i class="fab fa-github"></i> <span className={`${this.props.color} h1 align-middle`} style={{fontFamily: 'Catamaran'}}>GitHub</span></a></p>
-                                    <p><a className='' href='https://twitter.com/jessiesidwho'><i class="fab fa-twitter-square"></i> <span className={`${this.props.color} h1 align-middle`} style={{fontFamily: 'Catamaran'}}>Twitter</span></a></p>
+                                    <p><a className='' href='https://github.com/jessiesidwho'><i class="fab fa-github" style={{color: '#6cc644'}}></i> <span className={`${this.props.color} h1 align-middle`} style={{fontFamily: 'Catamaran'}}>GitHub</span></a></p>
+                                    <p><a className='' href='https://twitter.com/jessiesidwho'><i class="fab fa-twitter-square" style={{color: '#00aced'}}></i> <span className={`${this.props.color} h1 align-middle`} style={{fontFamily: 'Catamaran'}}>Twitter</span></a></p>
                                     {/* <a className='' href=''></a> */}
                                 
                             </div>
@@ -30,14 +30,14 @@ class About extends Component {
                     </div>
 
                 <div className={`col-md-6 mb-5 mt-3 text-center`}>
-                    <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
+                    <div className='text-center pb-2' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
                         <i class="fas fa-code-branch mr-2"></i>Skillset
                     </div>
 
                     <div className='row justify-content-sm-center'>
-                        <h2 className='col-sm-2 border p-2 m-0 text-danger bg-light'><i class="fab fa-html5"></i></h2>
-                        <h2 className='col-sm-2 border p-2 m-0 text-primary bg-light'><i class="fab fa-css3"></i></h2>
-                        <h2 className='col-sm-2 border p-2 m-0 text-warning bg-light'><i class="fab fa-js-square"></i></h2>
+                        <h1 className='col-sm-2 border p-2 m-0 text-danger bg-light'><i class="fab fa-html5"></i></h1>
+                        <h1 className='col-sm-2 border p-2 m-0 text-primary bg-light'><i class="fab fa-css3"></i></h1>
+                        <h1 className='col-sm-2 border p-2 m-0 text-warning bg-light'><i class="fab fa-js-square"></i></h1>
                     </div>
 
                     <div className='row justify-content-sm-center'>

@@ -12,14 +12,14 @@ class Projects extends Component {
         return (
             <div className={`row ${this.props.color} justify-content-md-center`}>
                 <div className={`col-md-6`}>
-                    <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
+                    <div className='text-center pb-2' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
                     <i class="fas fa-university mr-2"></i>Education
                     </div>
                     
                     <div className='row justify-content-sm-center'>
                         <div className='col-sm-6'>
 
-                            <div className='text-center h4'><strong>Completed</strong></div>
+                            <div className='text-center h3'><strong>Completed</strong></div>
                         
                             <ul>
                                 <li>Certification: Berkeley Coding Boot Camp</li>
@@ -29,7 +29,7 @@ class Projects extends Component {
 
                         <div className='col-sm-6'>
 
-                        <div className='text-center h4'><strong>In Progress</strong></div>
+                        <div className='text-center h3'><strong>In Progress</strong></div>
                         
                             <ul>
                                 <li>Certification: React-Native iOS/Android App Development</li>
@@ -41,7 +41,7 @@ class Projects extends Component {
                 </div>
 
                 <div className={`col-md-6 text-center`}>
-                    <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
+                    <div className='text-center pb-2' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
                         <i class="fas fa-code mr-2"></i>Projects
                     </div>    
                         <p><a href='https://study-live.herokuapp.com' className={``}><img className={`border border-white rounded-lg`} src={StudyLive} alt='project link' height='95' width='300'/></a></p> 
