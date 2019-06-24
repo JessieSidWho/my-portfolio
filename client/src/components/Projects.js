@@ -13,7 +13,7 @@ class Projects extends Component {
             <div className={`row ${this.props.color} justify-content-md-center`}>
                 <div className={`col-md-6`}>
                     <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
-                        Education
+                    <i class="fas fa-university mr-2"></i>Education
                     </div>
                     
                     <div className='row justify-content-sm-center'>
@@ -42,7 +42,7 @@ class Projects extends Component {
 
                 <div className={`col-md-6 text-center`}>
                     <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
-                        <i class="fas fa-code"></i>Projects
+                        <i class="fas fa-code mr-2"></i>Projects
                     </div>    
                         <p><a href='https://study-live.herokuapp.com' className={``}><img className={`border border-white rounded-lg`} src={StudyLive} alt='project link' height='95' width='300'/></a></p> 
 

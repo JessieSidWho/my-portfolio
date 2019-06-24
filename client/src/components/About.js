@@ -14,7 +14,7 @@ class About extends Component {
             <div className={`row ${this.props.color}`}>
                 <div className="col-md-6 mb-5 mt-3" style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
                         <div className='text-center' style={{minWidth: '360px'}}>
-                        <i class="fas fa-at"></i>Handles
+                        <i class="fas fa-at mr-2"></i>Handles
                         </div>
 
                         <div className="row justify-content-md-center mb-3">
@@ -29,9 +29,9 @@ class About extends Component {
 
                     </div>
 
-                <div className={`col-md-6 mb-5 text-center`}>
+                <div className={`col-md-6 mb-5 mt-3 text-center`}>
                     <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
-                        <i class="fas fa-code-branch"></i>Skillset
+                        <i class="fas fa-code-branch mr-2"></i>Skillset
                     </div>
 
                     <div className='row justify-content-sm-center'>

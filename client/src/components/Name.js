@@ -32,9 +32,9 @@ class Name extends Component {
 
                     </div>
 
-                    <div className={`col-md-6 mt-2`}>
+                    <div className={`col-md-6 mt-3`}>
                     <div className='text-center' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
-                        About Me
+                    <i class="fas fa-id-card mr-2"></i>About Me
                     </div>
                     <div className='p-4 mt-4'>
                         <p className=''>Dynamic and motivated professional well-known for creating positive environments
