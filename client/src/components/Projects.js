@@ -32,8 +32,9 @@ class Projects extends Component {
                         <div className='text-center h3'><strong>In Progress</strong></div>
                         
                             <ul>
-                                <li>Certification: React-Native iOS/Android App Development</li>
-                                <li>Certification: </li>
+                                <li>Certification: React-Native</li>
+                                <li>Certification: GraphQL</li>
+                                <li>Certification: GoLang</li>
                             </ul>
                         </div>
                     </div>
