@@ -11,8 +11,8 @@ class About extends Component {
 
     render() {
         return (
-            <div className={`row ${this.props.color}`}>
-                <div className="col-md-6 mb-5 mt-3" style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
+            <div className={`row ${this.props.color} justify-content-md-center`}>
+                {/* <div className="col-md-6 mb-5 mt-3" style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>
                         <div className='text-center pb-2' style={{minWidth: '360px'}}>
                         <i class="fas fa-at mr-2"></i>Handles
                         </div>
@@ -22,12 +22,12 @@ class About extends Component {
                                 
                                     <p><a className='' href='https://github.com/jessiesidwho'><i class="fab fa-github" style={{color: '#6cc644'}}></i> <span className={`${this.props.color} h1 align-middle`} style={{fontFamily: 'Catamaran'}}>GitHub</span></a></p>
                                     <p><a className='' href='https://twitter.com/jessiesidwho'><i class="fab fa-twitter-square" style={{color: '#00aced'}}></i> <span className={`${this.props.color} h1 align-middle`} style={{fontFamily: 'Catamaran'}}>Twitter</span></a></p>
-                                    {/* <a className='' href=''></a> */}
+                                    <a className='' href=''></a>
                                 
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
 
                 <div className={`col-md-6 mb-5 mt-3 text-center`}>
                     <div className='text-center pb-2' style={{ fontFamily: 'Raleway', fontSize: '6vw' }}>

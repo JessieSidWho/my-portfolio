@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { colorChange } from '../../actions';
-
+import { footerColor } from '../../actions';
 // import isBoolean from 'lodash/isBoolean';
 // import isFunction from 'lodash/isFunction';
 
@@ -67,8 +67,8 @@ class ToggleSwitch extends Component {
     return (
       
       <div className="mb-1">
-        <button className="btn btn-light border-secondary" onClick={ () => this.props.colorChange('bg-light text-dark border-dark')}>Light</button>
-        <button className="btn btn-secondary" onClick={ () => this.props.colorChange('bg-dark text-white border-light')}>Dark</button>
+        <button className="btn btn-light border-secondary" onClick={ () => {this.props.colorChange('bg-light text-dark border-dark'); this.props.footerColor('bg-dark text-white border-light');}}>Light</button>
+        <button className="btn btn-secondary" onClick={ () => {this.props.colorChange('bg-dark text-white border-light'); this.props.footerColor('bg-light text-dark border-dark');}}>Dark</button>
       </div>
       // <div className={switchClasses} onClick={this.toggleSwitch} {...restProps}>
       //   <div className={togglerClasses}></div>
@@ -88,9 +88,9 @@ class ToggleSwitch extends Component {
 // }
 
  
-function mapStateToProps({ color }) {
-  return { color };
+function mapStateToProps({ color, footer }) {
+  return { color, footer };
 }
 
-export default connect(mapStateToProps, { colorChange })(ToggleSwitch);
+export default connect(mapStateToProps, { colorChange, footerColor })(ToggleSwitch);
 
