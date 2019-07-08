@@ -1,8 +1,10 @@
-html,body{
+html,body {
     height: 100%
 }
 
 body {
+    width: 90%;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
